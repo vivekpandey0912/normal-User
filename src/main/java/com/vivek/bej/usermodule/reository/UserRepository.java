@@ -1,6 +1,7 @@
 package com.vivek.bej.usermodule.reository;
 
-import org.apache.catalina.User;
+
+import com.vivek.bej.usermodule.domain.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

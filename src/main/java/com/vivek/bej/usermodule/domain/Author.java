@@ -2,6 +2,7 @@ package com.vivek.bej.usermodule.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.MongoId;
 
 import java.util.Objects;
 
@@ -9,7 +10,6 @@ import java.util.Objects;
 @Document
 public class Author {
 
-    @Id
     private String id;
     private String name;
 

@@ -7,7 +7,6 @@ import java.util.Objects;
 @Document
 public class Genre {
 
-    @Id
     private String id;
     private String name;
     // Other genre-related fields, e.g., description, category, etc.

@@ -5,7 +5,6 @@ import org.springframework.data.mongodb.core.mapping.MongoId;
 import java.util.Objects;
 public class Book {
 
-    @MongoId
     private String bookId;
     private String title;
     private String ISBN;
